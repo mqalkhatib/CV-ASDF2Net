@@ -10,9 +10,9 @@ from Load_Data import load_data
 
 
 # Get the data
-dataset = 'FL_T' #
-windowSize = 5 #int(input("Enter the window size\n"))
-train_per = 1 #int(input("Enter the percentage of training data:\n"))
+dataset = 'FL_T' 
+windowSize = 13
+train_per = 1 
 data, gt = load_data(dataset)
 
 # Standardize the data
@@ -72,7 +72,7 @@ print('Average Accuracy = ', format(aa*100, ".4f"))
 print('Overall Accuracy = ', format(oa*100, ".4f"))
 print('Kappa x 100 = ', format(kappa*100, ".4f"))
 
-
+#########################################################################################
 # Create the class map (Very Fast way)
 data, gt = load_data(dataset)
 data = Standardize_data(data)
