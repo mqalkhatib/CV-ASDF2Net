@@ -1,0 +1,11 @@
+"1. acquired by the NASA/JPL AirSAR system over an agricultural area in the Flevoland, Netherlands.
+
+2. the dataset acquired by AIRSAR platform in 1989
+
+3. approximately 12 × 6 m resolution.
+
+4. It was acquired in mid-August 1989 during the MAESTRO-1 Campaign. The classes mainly consist of different vegetation and soil types with a water region, but also, some human-made classes with a few buildings.
+
+5. has well-established ground-truth information provided
+by Yu, P., A. K. Qin, and D. A. Clausi. 2012. “Unsupervised Polarimetric SAR Image Segmentation and Classification Using Region Growing with Edge Penalty.” IEEE Transactions on Geoscience and Remote Sensing 50 (4):
+
