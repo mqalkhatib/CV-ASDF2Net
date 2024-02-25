@@ -50,9 +50,8 @@ early_stopper = EarlyStopping(monitor='accuracy',
 history = model.fit(X_train, y_train,
                             batch_size = 64, 
                             verbose = 1, 
-                            epochs = 10, #100 for SF and FL 
+                            epochs = 250,  
                             shuffle = True,
-                            #class_weight = class_weights,
                             callbacks = [early_stopper] )
     
     
