@@ -101,7 +101,7 @@ plt.imshow(gt, vmin=0, vmax= num_classes(dataset), cmap='jet')
 plt.imshow(predicted_map, vmin=0, vmax= num_classes(dataset), cmap='jet')
 
 
-sio.savemat('./SDF2Net.mat', {'SDF2Net': new_map})
+sio.savemat('./SDF2Net.mat', {'SDF2Net': predicted_map})
 
 
 
