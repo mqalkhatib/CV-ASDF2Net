@@ -22,7 +22,7 @@ def load_data(name):
         T[:, :, 5] = envi.open(path / 'T23_real.bin.hdr', path / 'T23_real.bin').read_band(0) + \
                 1j * envi.open(path / 'T23_imag.bin.hdr', path / 'T23_imag.bin').read_band(0)
                 
-        labels = sio.loadmat('Datasets\Flevoland\FlevoLand_gt.mat')['gt']
+        labels = sio.loadmat('Datasets\Flevoland\Flevoland_gt.mat')['gt']
 ##############################################################################
    
     elif name == 'SF':
