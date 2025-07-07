@@ -3,7 +3,7 @@ import numpy as np
 from SAR_utils import *
 import matplotlib.pyplot as plt
 import matplotlib as mpl
-from model_SDF2Net import SDF2Net
+from model_ASDF2Net import ASDF2Net
 from tensorflow import keras
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report, cohen_kappa_score
 from Load_Data import load_data
@@ -34,7 +34,7 @@ print("Training Percentage = ", len(X_train)/len(X_coh)*100, "%")
 y_train = keras.utils.to_categorical(y_train)
 y_test = keras.utils.to_categorical(y_test)
 
-model = SDF2Net(X_train, num_classes(dataset))
+model = ASDF2Net(X_train, num_classes(dataset))
 model.summary()
 
 # Setup early stopper using callbacks
