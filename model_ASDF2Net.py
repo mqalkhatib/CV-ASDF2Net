@@ -15,7 +15,7 @@ from SAR_utils import cmplx_SE_Block
 
 
 
-def SDF2Net(X_cmplx, num_classes):
+def ASDF2Net(X_cmplx, num_classes):
     
     cmplx_inputs = complex_layers.complex_input(shape=(X_cmplx.shape[1:]))
     
