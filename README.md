@@ -18,18 +18,13 @@ Model was qualitatively evaluated by visually comparing the resulting class maps
 ![image](https://github.com/user-attachments/assets/b3e767e3-59f0-4401-920b-2efd2014bfa6)
 
 # Citation
-@ARTICLE{Alkhatib2025-kz,
-  title     = "{PolSAR} image classification using shallow to deep feature
-               fusion network with complex valued attention",
-  author    = "Alkhatib, Mohammed Q and Zitouni, M Sami and Al-Saad, Mina and
-               Aburaed, Nour and Al-Ahmad, Hussain",
-  journal   = "Sci. Rep.",
-  publisher = "Nature Publishing Group",
-  volume    =  15,
-  number    =  1,
-  pages     = "1--19",
-  month     =  jul,
-  year      =  2025,
-  language  = "en"
+@article{alkhatib2025polsar,
+  title={PolSAR image classification using shallow to deep feature fusion network with complex valued attention},
+  author={Alkhatib, Mohammed Q and Zitouni, M Sami and Al-Saad, Mina and Aburaed, Nour and Al-Ahmad, Hussain},
+  journal={Scientific Reports},
+  volume={15},
+  number={1},
+  pages={24315},
+  year={2025},
+  publisher={Nature Publishing Group UK London}
 }
-
